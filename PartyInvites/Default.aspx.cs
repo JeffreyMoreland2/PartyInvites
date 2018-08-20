@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.ModelBinding;
+using PartyInvites.Models;
+
 
 namespace PartyInvites
 {

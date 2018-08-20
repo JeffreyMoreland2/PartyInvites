@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 
-namespace PartyInvites
+namespace PartyInvites.Models
 {
     public class GuestResponse
     {
