@@ -1,0 +1,62 @@
+﻿html {
+    background: url(../img/partybg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: black;
+    width: 100% !important;
+    height: 100% !important;
+}
+/* Main Section */
+#rsvpform {
+    border: thin solid black;
+    border-collapse: collapse;
+    background-color: gold;
+    margin: 10px 0;
+    display: table;
+    width: 50%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/partybg2.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+#form {
+    display: table;
+}
+#rsvpform {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+#rsvpform label {width: 120px; display: inline-block;}
+#rsvpform input {margin: 2px; margin-left: 4px; width: 150px;}
+#rsvpform select {margin: 2px 0; width: 154px;}
+button[type=submit] {margin-top: 5px;}
+/* Summary Section */
+table, table2 {
+    margin: 0 auto;
+}
+/* Footer Section*/
+#footer {
+	background: #121d1f;
+	color: #7d8384;
+	padding: 30px 0 25px 0;
+}
+#footer p {
+	font-size: 13px;
+    text-align: center;
+}
+#footer a {
+	color: #a0a5a5;
+}
+#footer a:hover {
+	color: #7bc3d1;
+}
