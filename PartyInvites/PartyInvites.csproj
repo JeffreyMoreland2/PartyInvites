@@ -83,9 +83,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\PartyStyles.css" />
     <Content Include="Content\seeyouthere.html" />
     <Content Include="Content\sorryyoucantcome.html" />
+    <Content Include="img\partybg.jpg" />
+    <Content Include="img\partybg2.jpg" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="Pages\Summary.aspx" />
     <Content Include="Web.config" />
@@ -120,6 +124,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
